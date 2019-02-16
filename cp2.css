@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 15px;
+}
+/*Columns*/
+#columns {
+    -webkit-columns: 2 300px;
+    -moz-columns: 2 300px;
+    columns: 2 300px;
+    /*display: flex;*/
+}
+#side_bar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#side_bar h3 {
+    background-color: rgba(200, 172, 86, .3);
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+/*Book*/
+#viewerCanvas {
+    height: 500px;
+}
+
+/*Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(119, 105, 62);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
