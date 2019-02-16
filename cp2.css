@@ -11,13 +11,15 @@ body {
 }
 #side_bar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 #side_bar h3 {
     background-color: rgba(200, 172, 86, .3);
     padding: 10px;
     margin-top: 0px;
     text-align: center;
+}
+#side_bar p {
+    text-align: justify;
 }
 /*Book*/
 #viewerCanvas {
